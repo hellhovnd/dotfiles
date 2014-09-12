@@ -1,5 +1,5 @@
 " Maintainer:	Jean-Pierre Chauvel <jchauvel@gmail.com>
-" Last change:	2014 Jan 17
+" Last change:	2014 Sep 12
 "
 " To use it, copy it to
 "     for Unix and OS/2:  ~/.vimrc
@@ -125,24 +125,6 @@ endif " has("autocmd")
 " ============================ END Vim Basic Settings ========================
 "
 "
-" =================================== Plugin Settings ========================
-"
-
-" ropevim (Python-only) options
-"let ropevim_vim_completion=1
-"let ropevim_extended_complete=1
-"
-"" XML plugin settings
-"let xml_no_auto_nesting=1
-"let xml_use_xhtml=1
-"
-" set LargeFile to 20kB
-let g:LargeFile = 0.02
- 
-"
-" ================================= END Plugin Settings ========================
-"
-"
 " ================================= Vundle Settings ============================
 "
 "
@@ -235,8 +217,8 @@ autocmd BufNewFile,BufRead,WinEnter,BufEnter,
             \cs,*.cs,*.md let w:m2=matchadd('ErrorMsg', '\%<82v.\%>81v', -1)
 
 " Required for LargeFile
-"" set large file to 15kB
-"let g:LargeFile = 0.015
+" set large file to 15kB
+let g:LargeFile = 0.015
 
 " Required for vim-objc
 let g:c_no_curly_error = 1

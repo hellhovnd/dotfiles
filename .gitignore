@@ -1,0 +1,31 @@
+# Generic files
+*~
+*.lock
+*.out
+
+# OS specific files
+.DS_Store
+
+# Vim
+.*.swp
+.*.swo
+
+# Emacs
+.emacs-project
+\#.#
+*/.#*
+\#*
+.#*
+*~
+*.idea
+
+# Komodo
+*.komodoproject
+
+# Ignore rules
+.vim/tmp/*
+.vim/tmp/!.turd
+.vim/vundle/*
+.vim/vundle/!.turd
+.vim/pathogen/*
+.vim/pathogen/!.turd

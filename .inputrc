@@ -1,0 +1,7 @@
+$include /etc/inputrc
+
+#Customized input for hellhound own personal use :)
+"\e[Z": "\e-1\C-i"
+TAB: menu-complete
+\C-t: possible-completions
+set completion-ignore-case On

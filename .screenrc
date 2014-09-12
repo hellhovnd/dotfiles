@@ -1,0 +1,4 @@
+vbell off
+altscreen on
+defscrollback 50000
+startup_message off

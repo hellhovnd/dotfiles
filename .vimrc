@@ -41,7 +41,7 @@ set showcmd			" display incomplete commands
 set laststatus=2    " always show the statusline
 
  
-"set encoding=utf-8  " necessary to show unicode glyphs
+set encoding=utf-8  " necessary to show unicode glyphs
 
 " search options
 set incsearch		" do incremental searching
@@ -54,6 +54,9 @@ set shiftwidth=4
 set expandtab
 
 set nowrap
+
+" Ignore case in ex-mode
+set wildignorecase
 
 " Mouse support even on terminals (in all modes)
 set mouse=a
@@ -138,7 +141,7 @@ Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-pathogen'
 Bundle 'Lokaltog/powerline'
 Bundle 'b4winckler/vim-objc'
-Bundle 'Rip-Rip/clang_complete'
+" Bundle 'Rip-Rip/clang_complete'
 " vim-snipmate dependencies
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
@@ -146,7 +149,7 @@ Bundle 'tomtom/tlib_vim'
 " snipmate, cocoa.vim dependency
 Bundle 'garbas/vim-snipmate'
 " cocoa.vim
-Bundle 'hellhound/cocoa.vim'
+Bundle 'hellhovnd/cocoa.vim'
 Bundle 'vim-scripts/LargeFile'
 Bundle 'scrooloose/nerdcommenter'
 "Bundle 'scrooloose/nerdtree'
@@ -167,6 +170,8 @@ Bundle 'othree/html5.vim'
 "Bundle 'eiginn/netrw'
 Bundle 'vim-scripts/netrw.vim'
 Bundle 'sjl/gundo.vim'
+Bundle 'keith/swift.vim'
+Bundle 'ctrlpvim/ctrlp.vim'
 
 " vim.org repos
 
@@ -218,7 +223,7 @@ autocmd BufNewFile,BufRead,WinEnter,BufEnter,
 
 " Required for LargeFile
 " set large file to 15kB
-let g:LargeFile = 0.015
+"let g:LargeFile = 0.015
 
 " Required for vim-objc
 let g:c_no_curly_error = 1
@@ -236,4 +241,5 @@ let g:Powerline_symbols = 'fancy'
 let g:github_search_path_format = '~/projects/local/:project-:author@git'
 
 " Best colorscheme evar~
-colorscheme peachpuff
+" colorscheme peachpuff
+colorscheme xoria256

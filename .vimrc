@@ -172,6 +172,7 @@ Bundle 'vim-scripts/netrw.vim'
 Bundle 'sjl/gundo.vim'
 Bundle 'keith/swift.vim'
 Bundle 'ctrlpvim/ctrlp.vim'
+Bundle 'majutsushi/tagbar'
 
 " vim.org repos
 

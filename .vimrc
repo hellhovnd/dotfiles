@@ -244,3 +244,6 @@ let g:github_search_path_format = '~/projects/local/:project-:author@git'
 " Best colorscheme evar~
 " colorscheme peachpuff
 colorscheme xoria256
+
+" tagbar map
+nmap <F8> :TagbarToggle<CR>
